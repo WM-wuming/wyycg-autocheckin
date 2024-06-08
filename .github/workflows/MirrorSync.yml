@@ -16,6 +16,6 @@ jobs:
         run: |
           git fetch --unshallow
           git checkout master
-          git remote add gitea https://${{ secrets.GITEA_USERNAME }}:${{ secrets.GITEA_PASSWORD }}@git.bili33.top/GamerNoTitle/wyycg-AutoCheckin.git   
+          git remote add gitea https://github.com/GamerNoTitle/wyycg-autocheckin.git   
           git push gitea master          
 
